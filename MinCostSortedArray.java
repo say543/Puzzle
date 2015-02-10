@@ -34,12 +34,12 @@ import java.util.Arrays;
  * deleting the final 1 (cost 1) for a total cost of 5.
  * So let's try the algorithm. (You must view this with a fixed font.)
  * Table of C(n, m) values:
- * m = 1   3   5
+ * m =     1   3   5
  * n = 1 : 4   2   0
  * n = 2 : 4   3*  1*
  * n = 3 : 4   4   2*
  * n = 4 : 4   4   3*
- * n = 5 : 6m  4   4
+ * n = 5 : 6   4   4
  * n = 6 : 6   5*  5*
  * Here * means C resulted from decrementing and "m" means that a
  * decrement was based on the value of m rather than a[n].
