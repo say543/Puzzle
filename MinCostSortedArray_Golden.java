@@ -44,7 +44,8 @@ import java.util.Arrays;
  * Here * means C resulted from decrementing and "m" means that a
  * decrement was based on the value of m rather than a[n].
  * We take the answer from C(6,5) = 5.
- * <p/>
+ * The above sloution has implemented using distinch sort value in m(1,3,5) imstaed of all m from 1, 2, 3 , 4, 5. Thus a[n] of C(n - 1, a[n])
+ * <p/>needs remap to array index[n]. Please refer to code below, 
  * <p/>
  * Now the solution becomes easy to understand: it is a DP in two dimensions.
  * If we sort the elements of the distinct elements of the original sequence d into a sorted array s,
